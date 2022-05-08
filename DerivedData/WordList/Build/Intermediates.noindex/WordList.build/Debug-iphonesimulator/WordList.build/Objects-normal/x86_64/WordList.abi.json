@@ -1,0 +1,3955 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FinishViewController",
+      "printedName": "FinishViewController",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)FinishViewController(im)viewDidLoad",
+          "mangledName": "$s8WordList20FinishViewControllerC11viewDidLoadyyF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FinishViewController",
+              "printedName": "WordList.FinishViewController",
+              "usr": "c:@M@WordList@objc(cs)FinishViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)FinishViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8WordList20FinishViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WordList.FinishViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FinishViewController",
+                  "printedName": "WordList.FinishViewController",
+                  "usr": "c:@M@WordList@objc(cs)FinishViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)FinishViewController(im)initWithCoder:",
+          "mangledName": "$s8WordList20FinishViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)FinishViewController",
+      "mangledName": "$s8WordList20FinishViewControllerC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ListTableViewCell",
+      "printedName": "ListTableViewCell",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "englishLabel",
+          "printedName": "englishLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewCell(py)englishLabel",
+          "mangledName": "$s8WordList0B13TableViewCellC12englishLabelSo7UILabelCSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)englishLabel",
+              "mangledName": "$s8WordList0B13TableViewCellC12englishLabelSo7UILabelCSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)setEnglishLabel:",
+              "mangledName": "$s8WordList0B13TableViewCellC12englishLabelSo7UILabelCSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList0B13TableViewCellC12englishLabelSo7UILabelCSgvM",
+              "mangledName": "$s8WordList0B13TableViewCellC12englishLabelSo7UILabelCSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "japaneseLabel",
+          "printedName": "japaneseLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewCell(py)japaneseLabel",
+          "mangledName": "$s8WordList0B13TableViewCellC13japaneseLabelSo7UILabelCSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)japaneseLabel",
+              "mangledName": "$s8WordList0B13TableViewCellC13japaneseLabelSo7UILabelCSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)setJapaneseLabel:",
+              "mangledName": "$s8WordList0B13TableViewCellC13japaneseLabelSo7UILabelCSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList0B13TableViewCellC13japaneseLabelSo7UILabelCSgvM",
+              "mangledName": "$s8WordList0B13TableViewCellC13japaneseLabelSo7UILabelCSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "awakeFromNib",
+          "printedName": "awakeFromNib()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)awakeFromNib",
+          "mangledName": "$s8WordList0B13TableViewCellC12awakeFromNibyyF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "awakeFromNib",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setSelected",
+          "printedName": "setSelected(_:animated:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)setSelected:animated:",
+          "mangledName": "$s8WordList0B13TableViewCellC11setSelected_8animatedySb_SbtF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setSelected:animated:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:reuseIdentifier:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ListTableViewCell",
+              "printedName": "WordList.ListTableViewCell",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CellStyle",
+              "printedName": "UIKit.UITableViewCell.CellStyle",
+              "usr": "c:@E@UITableViewCellStyle"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)initWithStyle:reuseIdentifier:",
+          "mangledName": "$s8WordList0B13TableViewCellC5style15reuseIdentifierACSo07UITabledE5StyleV_SSSgtcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "intro_iOS": "3.0",
+          "objc_name": "initWithStyle:reuseIdentifier:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "Available"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WordList.ListTableViewCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ListTableViewCell",
+                  "printedName": "WordList.ListTableViewCell",
+                  "usr": "c:@M@WordList@objc(cs)ListTableViewCell"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewCell(im)initWithCoder:",
+          "mangledName": "$s8WordList0B13TableViewCellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)ListTableViewCell",
+      "mangledName": "$s8WordList0B13TableViewCellC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewCell",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewCell",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ViewController",
+      "printedName": "ViewController",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "back",
+          "printedName": "back(sender:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIStoryboardSegue",
+              "printedName": "UIKit.UIStoryboardSegue",
+              "usr": "c:objc(cs)UIStoryboardSegue"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ViewController(im)backWithSender:",
+          "mangledName": "$s8WordList14ViewControllerC4back6senderySo17UIStoryboardSegueC_tF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "startButtonTapped",
+          "printedName": "startButtonTapped()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ViewController(im)startButtonTapped",
+          "mangledName": "$s8WordList14ViewControllerC17startButtonTappedyyF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ViewController(im)viewDidLoad",
+          "mangledName": "$s8WordList14ViewControllerC11viewDidLoadyyF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ViewController",
+              "printedName": "WordList.ViewController",
+              "usr": "c:@M@WordList@objc(cs)ViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8WordList14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WordList.ViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ViewController",
+                  "printedName": "WordList.ViewController",
+                  "usr": "c:@M@WordList@objc(cs)ViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ViewController(im)initWithCoder:",
+          "mangledName": "$s8WordList14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)ViewController",
+      "mangledName": "$s8WordList14ViewControllerC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AddViewController",
+      "printedName": "AddViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "englishTextField",
+          "printedName": "englishTextField",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UITextField?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITextField",
+                  "printedName": "UIKit.UITextField",
+                  "usr": "c:objc(cs)UITextField"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)AddViewController(py)englishTextField",
+          "mangledName": "$s8WordList17AddViewControllerC16englishTextFieldSo06UITextH0CSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)AddViewController(im)englishTextField",
+              "mangledName": "$s8WordList17AddViewControllerC16englishTextFieldSo06UITextH0CSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)AddViewController(im)setEnglishTextField:",
+              "mangledName": "$s8WordList17AddViewControllerC16englishTextFieldSo06UITextH0CSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList17AddViewControllerC16englishTextFieldSo06UITextH0CSgvM",
+              "mangledName": "$s8WordList17AddViewControllerC16englishTextFieldSo06UITextH0CSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "japaneseTextField",
+          "printedName": "japaneseTextField",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UITextField?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UITextField",
+                  "printedName": "UIKit.UITextField",
+                  "usr": "c:objc(cs)UITextField"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)AddViewController(py)japaneseTextField",
+          "mangledName": "$s8WordList17AddViewControllerC17japaneseTextFieldSo06UITextH0CSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)AddViewController(im)japaneseTextField",
+              "mangledName": "$s8WordList17AddViewControllerC17japaneseTextFieldSo06UITextH0CSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UITextField?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UITextField",
+                      "printedName": "UIKit.UITextField",
+                      "usr": "c:objc(cs)UITextField"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)AddViewController(im)setJapaneseTextField:",
+              "mangledName": "$s8WordList17AddViewControllerC17japaneseTextFieldSo06UITextH0CSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList17AddViewControllerC17japaneseTextFieldSo06UITextH0CSgvM",
+              "mangledName": "$s8WordList17AddViewControllerC17japaneseTextFieldSo06UITextH0CSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wordArray",
+          "printedName": "wordArray",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.String : Swift.String]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList17AddViewControllerC9wordArraySaySDyS2SGGvp",
+          "mangledName": "$s8WordList17AddViewControllerC9wordArraySaySDyS2SGGvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Swift.String : Swift.String]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList17AddViewControllerC9wordArraySaySDyS2SGGvg",
+              "mangledName": "$s8WordList17AddViewControllerC9wordArraySaySDyS2SGGvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Swift.String : Swift.String]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList17AddViewControllerC9wordArraySaySDyS2SGGvs",
+              "mangledName": "$s8WordList17AddViewControllerC9wordArraySaySDyS2SGGvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList17AddViewControllerC9wordArraySaySDyS2SGGvM",
+              "mangledName": "$s8WordList17AddViewControllerC9wordArraySaySDyS2SGGvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "saveData",
+          "printedName": "saveData",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserDefaults",
+              "printedName": "Foundation.UserDefaults",
+              "usr": "c:objc(cs)NSUserDefaults"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList17AddViewControllerC8saveDataSo14NSUserDefaultsCvp",
+          "mangledName": "$s8WordList17AddViewControllerC8saveDataSo14NSUserDefaultsCvp",
+          "moduleName": "WordList",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserDefaults",
+                  "printedName": "Foundation.UserDefaults",
+                  "usr": "c:objc(cs)NSUserDefaults"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList17AddViewControllerC8saveDataSo14NSUserDefaultsCvg",
+              "mangledName": "$s8WordList17AddViewControllerC8saveDataSo14NSUserDefaultsCvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)AddViewController(im)viewDidLoad",
+          "mangledName": "$s8WordList17AddViewControllerC11viewDidLoadyyF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "saveWord",
+          "printedName": "saveWord()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)AddViewController(im)saveWord",
+          "mangledName": "$s8WordList17AddViewControllerC04saveA0yyF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AddViewController",
+              "printedName": "WordList.AddViewController",
+              "usr": "c:@M@WordList@objc(cs)AddViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)AddViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8WordList17AddViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WordList.AddViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AddViewController",
+                  "printedName": "WordList.AddViewController",
+                  "usr": "c:@M@WordList@objc(cs)AddViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)AddViewController(im)initWithCoder:",
+          "mangledName": "$s8WordList17AddViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)AddViewController",
+      "mangledName": "$s8WordList17AddViewControllerC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didFinishLaunchingWithOptions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "LaunchOptionsKey",
+                      "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                      "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)AppDelegate(im)application:didFinishLaunchingWithOptions:",
+          "mangledName": "$s8WordList11AppDelegateC11application_29didFinishLaunchingWithOptionsSbSo13UIApplicationC_SDySo0k6LaunchJ3KeyaypGSgtF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "application:didFinishLaunchingWithOptions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:configurationForConnecting:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneConfiguration",
+              "printedName": "UIKit.UISceneConfiguration",
+              "usr": "c:objc(cs)UISceneConfiguration"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)AppDelegate(im)application:configurationForConnectingSceneSession:options:",
+          "mangledName": "$s8WordList11AppDelegateC11application_26configurationForConnecting7optionsSo20UISceneConfigurationCSo13UIApplicationC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "application:configurationForConnectingSceneSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "application",
+          "printedName": "application(_:didDiscardSceneSessions:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIApplication",
+              "printedName": "UIKit.UIApplication",
+              "usr": "c:objc(cs)UIApplication"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<UIKit.UISceneSession>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UISceneSession",
+                  "printedName": "UIKit.UISceneSession",
+                  "usr": "c:objc(cs)UISceneSession"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)AppDelegate(im)application:didDiscardSceneSessions:",
+          "mangledName": "$s8WordList11AppDelegateC11application_23didDiscardSceneSessionsySo13UIApplicationC_ShySo14UISceneSessionCGtF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "application:didDiscardSceneSessions:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8WordList11AppDelegateC5$mainyyFZ",
+          "mangledName": "$s8WordList11AppDelegateC5$mainyyFZ",
+          "moduleName": "WordList",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "WordList.AppDelegate",
+              "usr": "c:@M@WordList@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s8WordList11AppDelegateCACycfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)AppDelegate",
+      "mangledName": "$s8WordList11AppDelegateC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "MainType",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "QuestionViewController",
+      "printedName": "QuestionViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "answerLabel",
+          "printedName": "answerLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(py)answerLabel",
+          "mangledName": "$s8WordList22QuestionViewControllerC11answerLabelSo7UILabelCSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)answerLabel",
+              "mangledName": "$s8WordList22QuestionViewControllerC11answerLabelSo7UILabelCSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)setAnswerLabel:",
+              "mangledName": "$s8WordList22QuestionViewControllerC11answerLabelSo7UILabelCSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC11answerLabelSo7UILabelCSgvM",
+              "mangledName": "$s8WordList22QuestionViewControllerC11answerLabelSo7UILabelCSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "questionLabel",
+          "printedName": "questionLabel",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UILabel?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UILabel",
+                  "printedName": "UIKit.UILabel",
+                  "usr": "c:objc(cs)UILabel"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(py)questionLabel",
+          "mangledName": "$s8WordList22QuestionViewControllerC13questionLabelSo7UILabelCSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)questionLabel",
+              "mangledName": "$s8WordList22QuestionViewControllerC13questionLabelSo7UILabelCSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)setQuestionLabel:",
+              "mangledName": "$s8WordList22QuestionViewControllerC13questionLabelSo7UILabelCSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC13questionLabelSo7UILabelCSgvM",
+              "mangledName": "$s8WordList22QuestionViewControllerC13questionLabelSo7UILabelCSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "nextButton",
+          "printedName": "nextButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "UIKit.UIButton?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIButton",
+                  "printedName": "UIKit.UIButton",
+                  "usr": "c:objc(cs)UIButton"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(py)nextButton",
+          "mangledName": "$s8WordList22QuestionViewControllerC10nextButtonSo8UIButtonCSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "HasStorage",
+            "IBOutlet",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)nextButton",
+              "mangledName": "$s8WordList22QuestionViewControllerC10nextButtonSo8UIButtonCSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIButton?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIButton",
+                      "printedName": "UIKit.UIButton",
+                      "usr": "c:objc(cs)UIButton"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)setNextButton:",
+              "mangledName": "$s8WordList22QuestionViewControllerC10nextButtonSo8UIButtonCSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC10nextButtonSo8UIButtonCSgvM",
+              "mangledName": "$s8WordList22QuestionViewControllerC10nextButtonSo8UIButtonCSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isAnswered",
+          "printedName": "isAnswered",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList22QuestionViewControllerC10isAnsweredSbvp",
+          "mangledName": "$s8WordList22QuestionViewControllerC10isAnsweredSbvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC10isAnsweredSbvg",
+              "mangledName": "$s8WordList22QuestionViewControllerC10isAnsweredSbvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC10isAnsweredSbvs",
+              "mangledName": "$s8WordList22QuestionViewControllerC10isAnsweredSbvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC10isAnsweredSbvM",
+              "mangledName": "$s8WordList22QuestionViewControllerC10isAnsweredSbvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "wordArray",
+          "printedName": "wordArray",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.String : Swift.String]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvp",
+          "mangledName": "$s8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Swift.String : Swift.String]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvg",
+              "mangledName": "$s8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Swift.String : Swift.String]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvs",
+              "mangledName": "$s8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvM",
+              "mangledName": "$s8WordList22QuestionViewControllerC9wordArraySaySDyS2SGGvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "nowNumber",
+          "printedName": "nowNumber",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList22QuestionViewControllerC9nowNumberSivp",
+          "mangledName": "$s8WordList22QuestionViewControllerC9nowNumberSivp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC9nowNumberSivg",
+              "mangledName": "$s8WordList22QuestionViewControllerC9nowNumberSivg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC9nowNumberSivs",
+              "mangledName": "$s8WordList22QuestionViewControllerC9nowNumberSivs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC9nowNumberSivM",
+              "mangledName": "$s8WordList22QuestionViewControllerC9nowNumberSivM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "saveData",
+          "printedName": "saveData",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserDefaults",
+              "printedName": "Foundation.UserDefaults",
+              "usr": "c:objc(cs)NSUserDefaults"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList22QuestionViewControllerC8saveDataSo14NSUserDefaultsCvp",
+          "mangledName": "$s8WordList22QuestionViewControllerC8saveDataSo14NSUserDefaultsCvp",
+          "moduleName": "WordList",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 6,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserDefaults",
+                  "printedName": "Foundation.UserDefaults",
+                  "usr": "c:objc(cs)NSUserDefaults"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList22QuestionViewControllerC8saveDataSo14NSUserDefaultsCvg",
+              "mangledName": "$s8WordList22QuestionViewControllerC8saveDataSo14NSUserDefaultsCvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)viewDidLoad",
+          "mangledName": "$s8WordList22QuestionViewControllerC11viewDidLoadyyF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewWillAppear",
+          "printedName": "viewWillAppear(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)viewWillAppear:",
+          "mangledName": "$s8WordList22QuestionViewControllerC14viewWillAppearyySbF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewWillAppear:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "nextButtonTapped",
+          "printedName": "nextButtonTapped()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)nextButtonTapped",
+          "mangledName": "$s8WordList22QuestionViewControllerC16nextButtonTappedyyF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "QuestionViewController",
+              "printedName": "WordList.QuestionViewController",
+              "usr": "c:@M@WordList@objc(cs)QuestionViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8WordList22QuestionViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WordList.QuestionViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "QuestionViewController",
+                  "printedName": "WordList.QuestionViewController",
+                  "usr": "c:@M@WordList@objc(cs)QuestionViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)QuestionViewController(im)initWithCoder:",
+          "mangledName": "$s8WordList22QuestionViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)QuestionViewController",
+      "mangledName": "$s8WordList22QuestionViewControllerC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SceneDelegate",
+      "printedName": "SceneDelegate",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "window",
+          "printedName": "window",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIWindow?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIWindow",
+                  "printedName": "UIKit.UIWindow",
+                  "usr": "c:objc(cs)UIWindow"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(py)window",
+          "mangledName": "$s8WordList13SceneDelegateC6windowSo8UIWindowCSgvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "window",
+          "declAttributes": [
+            "HasInitialValue",
+            "ObjC",
+            "Custom",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)window",
+              "mangledName": "$s8WordList13SceneDelegateC6windowSo8UIWindowCSgvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "window",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIWindow?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIWindow",
+                      "printedName": "UIKit.UIWindow",
+                      "usr": "c:objc(cs)UIWindow"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)setWindow:",
+              "mangledName": "$s8WordList13SceneDelegateC6windowSo8UIWindowCSgvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "objc_name": "setWindow:",
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "mangledName": "$s8WordList13SceneDelegateC6windowSo8UIWindowCSgvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "scene",
+          "printedName": "scene(_:willConnectTo:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UISceneSession",
+              "printedName": "UIKit.UISceneSession",
+              "usr": "c:objc(cs)UISceneSession"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ConnectionOptions",
+              "printedName": "UIKit.UIScene.ConnectionOptions",
+              "usr": "c:objc(cs)UISceneConnectionOptions"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)scene:willConnectToSession:options:",
+          "mangledName": "$s8WordList13SceneDelegateC5scene_13willConnectTo7optionsySo7UISceneC_So0J7SessionCSo0J17ConnectionOptionsCtF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "scene:willConnectToSession:options:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidDisconnect",
+          "printedName": "sceneDidDisconnect(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)sceneDidDisconnect:",
+          "mangledName": "$s8WordList13SceneDelegateC18sceneDidDisconnectyySo7UISceneCF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "sceneDidDisconnect:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidBecomeActive",
+          "printedName": "sceneDidBecomeActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)sceneDidBecomeActive:",
+          "mangledName": "$s8WordList13SceneDelegateC20sceneDidBecomeActiveyySo7UISceneCF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "sceneDidBecomeActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillResignActive",
+          "printedName": "sceneWillResignActive(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)sceneWillResignActive:",
+          "mangledName": "$s8WordList13SceneDelegateC21sceneWillResignActiveyySo7UISceneCF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "sceneWillResignActive:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneWillEnterForeground",
+          "printedName": "sceneWillEnterForeground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)sceneWillEnterForeground:",
+          "mangledName": "$s8WordList13SceneDelegateC24sceneWillEnterForegroundyySo7UISceneCF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "sceneWillEnterForeground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "sceneDidEnterBackground",
+          "printedName": "sceneDidEnterBackground(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIScene",
+              "printedName": "UIKit.UIScene",
+              "usr": "c:objc(cs)UIScene"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)sceneDidEnterBackground:",
+          "mangledName": "$s8WordList13SceneDelegateC23sceneDidEnterBackgroundyySo7UISceneCF",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "objc_name": "sceneDidEnterBackground:",
+          "declAttributes": [
+            "ObjC",
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SceneDelegate",
+              "printedName": "WordList.SceneDelegate",
+              "usr": "c:@M@WordList@objc(cs)SceneDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)SceneDelegate(im)init",
+          "mangledName": "$s8WordList13SceneDelegateCACycfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)SceneDelegate",
+      "mangledName": "$s8WordList13SceneDelegateC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIResponder",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "WordList",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ListTableViewController",
+      "printedName": "ListTableViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "wordArray",
+          "printedName": "wordArray",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[[Swift.String : Swift.String]]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvp",
+          "mangledName": "$s8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvp",
+          "moduleName": "WordList",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Swift.String : Swift.String]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvg",
+              "mangledName": "$s8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[[Swift.String : Swift.String]]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvs",
+              "mangledName": "$s8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvs",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvM",
+              "mangledName": "$s8WordList0B19TableViewControllerC9wordArraySaySDyS2SGGvM",
+              "moduleName": "WordList",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "saveData",
+          "printedName": "saveData",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UserDefaults",
+              "printedName": "Foundation.UserDefaults",
+              "usr": "c:objc(cs)NSUserDefaults"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8WordList0B19TableViewControllerC8saveDataSo14NSUserDefaultsCvp",
+          "mangledName": "$s8WordList0B19TableViewControllerC8saveDataSo14NSUserDefaultsCvp",
+          "moduleName": "WordList",
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UserDefaults",
+                  "printedName": "Foundation.UserDefaults",
+                  "usr": "c:objc(cs)NSUserDefaults"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8WordList0B19TableViewControllerC8saveDataSo14NSUserDefaultsCvg",
+              "mangledName": "$s8WordList0B19TableViewControllerC8saveDataSo14NSUserDefaultsCvg",
+              "moduleName": "WordList",
+              "implicit": true,
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)viewDidLoad",
+          "mangledName": "$s8WordList0B19TableViewControllerC11viewDidLoadyyF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "viewWillAppear",
+          "printedName": "viewWillAppear(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)viewWillAppear:",
+          "mangledName": "$s8WordList0B19TableViewControllerC14viewWillAppearyySbF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewWillAppear:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "numberOfSections",
+          "printedName": "numberOfSections(in:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)numberOfSectionsInTableView:",
+          "mangledName": "$s8WordList0B19TableViewControllerC16numberOfSections2inSiSo07UITableD0C_tF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "numberOfSectionsInTableView:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:numberOfRowsInSection:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)tableView:numberOfRowsInSection:",
+          "mangledName": "$s8WordList0B19TableViewControllerC05tableD0_21numberOfRowsInSectionSiSo07UITableD0C_SitF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tableView:numberOfRowsInSection:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tableView",
+          "printedName": "tableView(_:cellForRowAt:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UITableViewCell",
+              "printedName": "UIKit.UITableViewCell",
+              "usr": "c:objc(cs)UITableViewCell"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UITableView",
+              "printedName": "UIKit.UITableView",
+              "usr": "c:objc(cs)UITableView"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "IndexPath",
+              "printedName": "Foundation.IndexPath",
+              "usr": "s:10Foundation9IndexPathV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)tableView:cellForRowAtIndexPath:",
+          "mangledName": "$s8WordList0B19TableViewControllerC05tableD0_12cellForRowAtSo07UITableD4CellCSo0kD0C_10Foundation9IndexPathVtF",
+          "moduleName": "WordList",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tableView:cellForRowAtIndexPath:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ListTableViewController",
+              "printedName": "WordList.ListTableViewController",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Style",
+              "printedName": "UIKit.UITableView.Style",
+              "usr": "c:@E@UITableViewStyle"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)initWithStyle:",
+          "mangledName": "$s8WordList0B19TableViewControllerC5styleACSo07UITableD5StyleV_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithStyle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ListTableViewController",
+              "printedName": "WordList.ListTableViewController",
+              "usr": "c:@M@WordList@objc(cs)ListTableViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s8WordList0B19TableViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "WordList.ListTableViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ListTableViewController",
+                  "printedName": "WordList.ListTableViewController",
+                  "usr": "c:@M@WordList@objc(cs)ListTableViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@WordList@objc(cs)ListTableViewController(im)initWithCoder:",
+          "mangledName": "$s8WordList0B19TableViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "WordList",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@WordList@objc(cs)ListTableViewController",
+      "mangledName": "$s8WordList0B19TableViewControllerC",
+      "moduleName": "WordList",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UITableViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UITableViewController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
