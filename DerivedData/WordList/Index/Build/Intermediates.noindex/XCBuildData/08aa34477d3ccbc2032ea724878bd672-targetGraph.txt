@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-WordList in WordList, no dependencies
-WordList in WordList, no dependencies
